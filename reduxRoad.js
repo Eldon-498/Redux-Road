@@ -32,3 +32,5 @@ const reducer = (state=initialWagonState, action) => {
         }
       }
 }
+let wagon = reducer(undefined, {});
+console.log(wagon);
