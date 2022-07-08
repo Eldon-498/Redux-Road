@@ -37,3 +37,5 @@ console.log(wagon);
 wagon = reducer(initialWagonState, {type: 'travel',
 payload: 1});
 console.log(wagon);
+wagon = reducer(wagon, {type: 'gather'});
+console.log(wagon);
