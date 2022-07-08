@@ -3,3 +3,10 @@ const initialWagonState = {
     distance: 0,
     days: 0
   }
+const reducer = (state=initialWagonState, action) => {
+    switch(action.type){
+        default: {
+          return state;
+        }
+      }
+}
