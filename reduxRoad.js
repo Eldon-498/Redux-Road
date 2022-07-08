@@ -39,3 +39,5 @@ payload: 1});
 console.log(wagon);
 wagon = reducer(wagon, {type: 'gather'});
 console.log(wagon);
+wagon = reducer(wagon, {type: 'tippedWagon'});
+console.log(wagon);
