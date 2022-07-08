@@ -34,3 +34,6 @@ const reducer = (state=initialWagonState, action) => {
 }
 let wagon = reducer(undefined, {});
 console.log(wagon);
+wagon = reducer(initialWagonState, {type: 'travel',
+payload: 1});
+console.log(wagon);
